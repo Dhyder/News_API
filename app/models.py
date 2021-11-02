@@ -1,6 +1,6 @@
 class Headlines:
     '''
-    Defines new News Head
+    Defines new News objects
     '''
     def __init__(self, author, title, description, url, urlToImage, publishedAt, content):
         self.author = author
@@ -13,7 +13,7 @@ class Headlines:
 
 class Sources:
     '''
-    Defines new Sources Origin
+    Defines new Sources objects
     '''
 
     def __init__(self, source_id, name, description, url, category, language, country):
